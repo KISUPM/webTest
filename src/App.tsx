@@ -1,10 +1,10 @@
-import { Text } from "@chakra-ui/react";
+import { Box, Text } from "@chakra-ui/react";
 
 function App() {
   return (
-    <>
-      <Text>Deploy Success</Text>
-    </>
+    <Box bg="#ccca" minH="100dvh" w="100vw">
+      <Text>Hello</Text>
+    </Box>
   );
 }
 
